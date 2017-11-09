@@ -1,0 +1,21 @@
+{
+  "name": "ejtemp",
+  "version": "1.0.0",
+  "description": "bootstrap ejs template",
+  "main": "app.js",
+  "scripts": {
+	"start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejs",
+    "bootsrap",
+    "express"
+  ],
+  "author": "gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

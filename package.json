@@ -17,5 +17,9 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "6.10.2",
+	"npm": "3.10.10",
   }
 }

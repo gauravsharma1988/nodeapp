@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var routes = require('./routes/index.js'); // --> this module returning router object
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 // Set directory to contain the templates ('views')
 //Express will automatically look inside the views/ folder for template files
 //app.set('views', path.join(__dirname, 'views'));
@@ -21,5 +21,3 @@ app.use('/',routes);   // here we are applying router only on home root path
 
 app.listen(port);
 console.log('server is now launched successfully');
-
-
